@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Canvas test',
       debugShowCheckedModeBanner: false,
-      home: const CanvasScreen(),
+      home: const CanvasScreen(
+        nodeCount: 8,
+      ),
     );
   }
 }
